@@ -1,16 +1,15 @@
-# Cypress Testing Quickstart
+# NestJS Quickstart
 
-![Cypress Testing Quickstart Course App](apps/dashboard/src/assets/screenshots/cypress.png)
+![NestJS Quickstart Course App](apps/dashboard/src/assets/screenshots/swagger.png)
 
-This is the sample project for the Cypress Testing Quickstart course from BrieBug Academy. 
+This is the sample project for the NestJS Testing Quickstart course from BrieBug Academy. 
 
-The sample project includes an Angular web application and a mock RESTful API  within an Nx workspace by NRWL. The Angular application uses state and data libs to manage state and handle server communication. The state lib is built around NgRx and the application is entirely reactive. 
+The sample project includes an Angular web application and a full RESTful API using NestJS within an Nx workspace by NRWL. The Angular application uses state and data libs to manage state and handle server communication. The state lib is built around NgRx and the application is entirely reactive. The REST API uses TypeORM and SQLite as the datastore and Passport for authentication.
 
 ## Prerequisites
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Node.js and NPM – we recommend using [NVM (Linux/Mac)](https://github.com/creationix/nvm) or [NVM-Windows (Windows)](https://github.com/coreybutler/nvm-windows)
 - Install Angular CLI via `npm i -g @angular/cli`
-- Install Ionic CLI va `npm i -g @ionic/cli`
 
 ## Web: Getting Started
 
