@@ -6,9 +6,12 @@ import {
   Param,
   Post,
   Put,
+  UseInterceptors,
 } from '@nestjs/common';
+import { LoggerInterceptor } from '../common/logger/logger.interceptor';
 import { Course } from '../database/entities/course.entity';
 import { CoursesService } from './courses.service';
+
 
 @Controller('courses')
 export class CoursesController {
